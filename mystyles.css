@@ -1,0 +1,34 @@
+/* SO FOR STYLES
+1. INDEX AND RESUME (AND HOBBIES )NEED TO HAVE "ONE STYLE CSSS LINK" (BOOSTRAP STYLE) (TAKEN CARE OF)
+2. MYSTYLE NEEDS TO BE THE CSS FOLDER THAT OVERRIDES BOOT STRAP (IN WHAT WAYS AND HOW MANY TIMES AND WHERE SHOULD I OVERRIDE BOOT STRAP?)
+3. TABLAU HAS ITS OWN SYLES SHEET (ALREADY TAKE CARE OF- THORUGH LAYOUT STLES)
+
+body {
+    background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../images/ariel.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+
+  */
+ .section-heading .section-heading-lower {
+    display: block;
+    font-size: 2rem;
+    font-weight: 100;
+}
+body {
+  margin: 0;
+  font-family: fantasy;
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  color: #4b8caa;
+  text-align: var(--bs-body-text-align);
+  background-color: var(--bs-body-bg);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+h5, .h5 {
+  font-size: 3rem;
+}
